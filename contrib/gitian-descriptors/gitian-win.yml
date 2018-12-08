@@ -1,5 +1,5 @@
 ---
-name: "cryptodev-win-3.2"
+name: "cryptodev-win-1.0.1.0"
 enable_cache: true
 suites:
 - "trusty"
