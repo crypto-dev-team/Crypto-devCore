@@ -1,5 +1,5 @@
 ---
-name: "cryptodev-linux-3.2"
+name: "cryptodev-linux-1.0.1.0"
 enable_cache: true
 suites:
 - "trusty"
