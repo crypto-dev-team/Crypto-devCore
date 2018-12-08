@@ -1,0 +1,26 @@
+# /etc/conf.d/cryptodevd: config file for /etc/init.d/cryptodevd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cryptodev/cryptodev.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cryptodevd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cryptodevd.pid"
+
+# Where to write cryptodevd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cryptodevd"
+
+# User and group to own cryptodevd process
+#BITCOIND_USER="cryptodev"
+#BITCOIND_GROUP="cryptodev"
+
+# Path to cryptodevd executable
+#BITCOIND_BIN="/usr/bin/cryptodevd"
+
+# Nice value to run cryptodevd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

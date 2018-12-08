@@ -1,0 +1,26 @@
+[Unit]
+Description=Cryptodev's distributed currency daemon
+After=network.target
+
+[Service]
+User=cryptodev
+Group=cryptodev
+
+Type=forking
+PIDFile=/var/lib/cryptodevd/cryptodevd.pid
+
+ExecStart=/usr/bin/cryptodevd -daemon -pid=/var/lib/cryptodevd/cryptodevd.pid \
+          -conf=/etc/cryptodev/cryptodev.conf -datadir=/var/lib/cryptodevd
+
+ExecStop=-/usr/bin/cryptodev-cli -conf=/etc/cryptodev/cryptodev.conf \
+         -datadir=/var/lib/cryptodevd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

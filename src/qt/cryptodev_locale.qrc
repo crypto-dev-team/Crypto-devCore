@@ -1,0 +1,35 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cryptodev_bg.qm</file>
+        <file alias="ca">locale/cryptodev_ca.qm</file>
+        <file alias="cs">locale/cryptodev_cs.qm</file>
+        <file alias="da">locale/cryptodev_da.qm</file>
+        <file alias="de">locale/cryptodev_de.qm</file>
+        <file alias="en">locale/cryptodev_en.qm</file>
+        <file alias="en_US">locale/cryptodev_en_US.qm</file>
+        <file alias="es">locale/cryptodev_es.qm</file>
+        <file alias="es_ES">locale/cryptodev_es_ES.qm</file>
+        <file alias="fi">locale/cryptodev_fi.qm</file>
+        <file alias="fr_FR">locale/cryptodev_fr_FR.qm</file>
+        <file alias="hi_IN">locale/cryptodev_hi_IN.qm</file>
+        <file alias="hr">locale/cryptodev_hr.qm</file>
+        <file alias="hr_HR">locale/cryptodev_hr_HR.qm</file>
+        <file alias="it">locale/cryptodev_it.qm</file>
+        <file alias="ja">locale/cryptodev_ja.qm</file>
+        <file alias="ko_KR">locale/cryptodev_ko_KR.qm</file>
+        <file alias="lt_LT">locale/cryptodev_lt_LT.qm</file>
+        <file alias="nl">locale/cryptodev_nl.qm</file>
+        <file alias="pl">locale/cryptodev_pl.qm</file>
+        <file alias="pt">locale/cryptodev_pt.qm</file>
+        <file alias="pt_BR">locale/cryptodev_pt_BR.qm</file>
+        <file alias="ro_RO">locale/cryptodev_ro_RO.qm</file>
+        <file alias="ru">locale/cryptodev_ru.qm</file>
+        <file alias="sk">locale/cryptodev_sk.qm</file>
+        <file alias="sv">locale/cryptodev_sv.qm</file>
+        <file alias="tr">locale/cryptodev_tr.qm</file>
+        <file alias="uk">locale/cryptodev_uk.qm</file>
+        <file alias="vi">locale/cryptodev_vi.qm</file>
+        <file alias="zh_CN">locale/cryptodev_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cryptodev_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cryptodev
+Comment=Cryptodev P2P Cryptocurrency
+Comment[fr]=Cryptodev, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Cryptodev, eşten eşe kriptografik sanal para birimi
+Exec=cryptodev-qt %u
+Terminal=false
+Type=Application
+Icon=cryptodev128
+MimeType=x-scheme-handler/cryptodev;
+Categories=Office;Finance;
